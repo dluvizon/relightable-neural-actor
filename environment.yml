@@ -1,0 +1,47 @@
+name: relitactor
+channels:
+  - pytorch
+  - pytorch3d
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - c-compiler=1.4
+  - cxx-compiler=1.4
+  - libxcrypt
+  - python<=3.10
+  - pytorch=2.0
+  - torchvision
+  - cudatoolkit=11.3
+  - cudatoolkit-dev
+  - lightning
+  - pytorch3d
+  - h5py
+  - hdf5
+  - ipympl
+  - nodejs
+  - pandas
+  - mkl==2024.0 # work around to 'undefined symbol: iJIT_NotifyEvent' error in torch
+  - pip
+  - pip:
+    - numpy==1.22
+    - open3d
+    - opencv_python
+    - tqdm
+    - imageio
+    - scikit_image
+    - scipy
+    - pillow
+    - ipython
+    - jupyterlab
+    - matplotlib
+    - tensorboard
+    - pytorch_fid
+    - chumpy
+    - ipdb
+    - pyrender
+    - plyfile
+    - setuptools==68.0.0
+    - nvidia-ml-py3 # for monitoring GPU usage
+    - git+https://github.com/MultiPath/fairseq-stable.git

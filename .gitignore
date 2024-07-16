@@ -1,0 +1,27 @@
+.vscode
+active_configs/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.log
+*.mp4
+*.npz
+*.fbx
+*.zip
+*.npy
+
+# Jupyter stuf
+.ipynb_checkpoints
+
+# Compiled stuff
+*.so
+*-info
+
+# Output and checkpoints from trained models
+checkpoints/
+output*/
+build/
+debug/
+data/
+

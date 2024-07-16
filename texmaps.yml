@@ -1,0 +1,23 @@
+name: texmaps
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python=3.8
+  - cudatoolkit=10.2
+  - cudatoolkit-dev
+  - pip
+  - pip:
+    - numpy==1.23.1
+    - h5py
+    - open3d==0.10.0.0
+    - opencv_python==4.2.0.32
+    - tqdm==4.35.0
+    - imageio==2.6.1
+    - scipy==1.4.1
+    - matplotlib==3.1.2
+    - torch==1.6.0
+    - torchvision==0.7.0
+    - pytorch_fid==0.2.1
